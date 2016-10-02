@@ -25,7 +25,7 @@ class CalculatorModel {
         "π" : Operation.Constant(M_PI),
         "e" : Operation.Constant(M_E),
         "√" : Operation.UnaryOperation(sqrt),
-        "cos" : Operation.UnaryOperation(cos), 
+        "cos" : Operation.UnaryOperation(cos),
         "×" : Operation.BinaryOperation({ $0 * $1 }), //closures
         "÷" : Operation.BinaryOperation({ $0 / $1 }),
         "+" : Operation.BinaryOperation({ $0 + $1 }),
@@ -34,7 +34,7 @@ class CalculatorModel {
     ]
     
     
-    enum Operation {
+    private enum Operation {
         case Constant(Double)
         case UnaryOperation((Double) -> Double)
         case BinaryOperation((Double, Double) -> Double)
@@ -67,7 +67,7 @@ class CalculatorModel {
     
     private var pending: PendingBinaryOperationInfo?
     
-    struct PendingBinaryOperationInfo {
+    private struct PendingBinaryOperationInfo {
         var binaryFunction: (Double, Double) -> Double
         var firstOperand : Double
     }
