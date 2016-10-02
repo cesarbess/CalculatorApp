@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB7BCE151D43F31F00CDFD04 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BCE141D43F31F00CDFD04 /* CalculatorModel.swift */; };
 		DBA852F41D41A31E0023DDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA852F31D41A31E0023DDFB /* AppDelegate.swift */; };
 		DBA852F61D41A31E0023DDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA852F51D41A31E0023DDFB /* ViewController.swift */; };
 		DBA852F91D41A31E0023DDFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA852F71D41A31E0023DDFB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB7BCE141D43F31F00CDFD04 /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		DBA852F01D41A31E0023DDFB /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA852F31D41A31E0023DDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBA852F51D41A31E0023DDFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				DBA852F31D41A31E0023DDFB /* AppDelegate.swift */,
 				DBA852F51D41A31E0023DDFB /* ViewController.swift */,
+				DB7BCE141D43F31F00CDFD04 /* CalculatorModel.swift */,
 				DBA852F71D41A31E0023DDFB /* Main.storyboard */,
 				DBA852FA1D41A31E0023DDFB /* Assets.xcassets */,
 				DBA852FC1D41A31E0023DDFB /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7BCE151D43F31F00CDFD04 /* CalculatorModel.swift in Sources */,
 				DBA852F61D41A31E0023DDFB /* ViewController.swift in Sources */,
 				DBA852F41D41A31E0023DDFB /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +292,7 @@
 				DBA853041D41A31E0023DDFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
